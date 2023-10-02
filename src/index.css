@@ -1,0 +1,44 @@
+
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;700&family=Caveat:wght@600&family=Croissant+One&family=Indie+Flower&family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;400;500&family=Work+Sans:ital,wght@0,100;0,400;0,800;1,100;1,400&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;700&family=Caveat:wght@600&family=Croissant+One&family=Indie+Flower&family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;400;500&family=Vollkorn:ital@1&family=Work+Sans:ital,wght@0,100;0,400;0,800;1,100;1,400&display=swap');
+  /* font-family: 'Vollkorn', serif; */
+
+:root{
+  --bgcolor : #131722;
+  --textcolor :white ;
+  --font-family: 'Vollkorn', serif;
+  --font-main :'Croissant One', 'cursive';
+--font-color :#fff;
+--light-color :#24baef;
+}
+
+
+body {
+  background-color: var(--bgcolor);
+  color: var(--textcolor);
+  font-family: var(--font-family);
+  color: var(--font-color)
+  
+}
+.the-input{
+  background-color: rgb(128, 125, 119);
+  border: solid 1px #a8a8a83d;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.vote{
+
+
+  background-color: #24baef;
+}
