@@ -1,5 +1,5 @@
 import './App.css';
-import {Navigate, RouterProvider, createBrowserRouter} from 'react-router-dom'
+import {Navigate, RouterProvider, createBrowserRouter,createHashRouter} from 'react-router-dom'
 import Layout from './Components/Layout/Layout';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
@@ -53,7 +53,7 @@ function App() {
 
 
 
-  let farah = createBrowserRouter([
+  let farah = createHashRouter([
     {path:'' ,element:<Layout userdata={userdata} logout={logout}/> , children:[
       {path:'home' , element:<Protaction userdata = {userdata} saveuserdata={saveuserdata}><Home/></Protaction>},
       {path:'' , element:<Login saveuserdata={saveuserdata}/>},
